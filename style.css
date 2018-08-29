@@ -1,0 +1,47 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+}
+
+.header {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.header-block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	margin: 0 auto;
+}
+
+.header-block h1 {
+  font-size: 80px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.description-block {
+	margin-top: -45px;
+}
+
+.description {
+	font-size: 30px;
+}
+
+.media {
+	margin-top: 20px;
+}
+
+.media-item {
+	padding: 10px;
+}
+
+.media-item:hover img {
+	opacity: 0.6;
+}
