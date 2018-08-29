@@ -31,7 +31,7 @@ html, body {
 }
 
 .description {
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .media {
@@ -44,4 +44,26 @@ html, body {
 
 .media-item:hover img {
 	opacity: 0.6;
+}
+
+@media (max-width: 500px) {
+	.header-block {
+		width: 90%;
+	}
+
+	.header-block h1 {
+		font-size: 50px;
+	}
+
+	.description-block {
+		margin-top: -30px;
+	}
+
+	.description {
+		font-size: 20px;
+	}
+
+	.media-item {
+		padding: 0px;
+	}
 }
